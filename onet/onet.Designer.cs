@@ -353,7 +353,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "onet";
-            this.Text = "Частота";
+            this.Text = "1";
             this.Load += new System.EventHandler(this.onet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

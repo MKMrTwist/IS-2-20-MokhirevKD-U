@@ -85,5 +85,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\fivet\fivet.csproj">
+      <Project>{4dc8a752-6b11-4b6e-9206-044ef23c3578}</Project>
+      <Name>fivet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fourt\fourt.csproj">
+      <Project>{875b686b-4c65-47b9-83ba-98b380e508ce}</Project>
+      <Name>fourt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\onet\onet.csproj">
+      <Project>{4b60a3fd-9b16-4350-b595-4a948ddbc66e}</Project>
+      <Name>onet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\threet\threet.csproj">
+      <Project>{2a2a1596-3f88-4bd8-ba72-4ca79f1556e7}</Project>
+      <Name>threet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\twot\twot.csproj">
+      <Project>{56b380d6-1e6b-43a7-8547-7b0320eac2af}</Project>
+      <Name>twot</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
