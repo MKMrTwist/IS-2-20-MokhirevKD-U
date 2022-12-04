@@ -1,6 +1,6 @@
-﻿namespace onet
+﻿namespace fivet
 {
-    partial class Form1
+    partial class fivet
     {
         /// <summary>
         /// Обязательная переменная конструктора.

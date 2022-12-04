@@ -1,6 +1,6 @@
 ﻿namespace twot
 {
-    partial class Form1
+    partial class twot
     {
         /// <summary>
         /// Обязательная переменная конструктора.

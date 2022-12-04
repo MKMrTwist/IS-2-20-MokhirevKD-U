@@ -1,6 +1,6 @@
-﻿namespace threet
+﻿namespace fourt
 {
-    partial class Form1
+    partial class fourt
     {
         /// <summary>
         /// Обязательная переменная конструктора.

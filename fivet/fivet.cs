@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace fivet
 {
-    public partial class Form1 : Form
+    public partial class fivet : Form
     {
-        public Form1()
+        public fivet()
         {
             InitializeComponent();
         }

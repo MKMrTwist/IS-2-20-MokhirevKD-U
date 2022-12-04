@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace onet
+namespace fourt
 {
-    public partial class Form1 : Form
+    public partial class fourt : Form
     {
-        public Form1()
+        public fourt()
         {
             InitializeComponent();
         }

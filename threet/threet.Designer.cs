@@ -1,6 +1,6 @@
-﻿namespace fivet
+﻿namespace threet
 {
-    partial class Form1
+    partial class threet
     {
         /// <summary>
         /// Обязательная переменная конструктора.
