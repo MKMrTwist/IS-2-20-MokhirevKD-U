@@ -1,6 +1,6 @@
 ﻿namespace onet
 {
-    partial class onet
+    partial class ones
     {
         /// <summary>
         /// Обязательная переменная конструктора.

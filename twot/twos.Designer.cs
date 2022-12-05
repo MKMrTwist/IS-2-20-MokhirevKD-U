@@ -1,6 +1,6 @@
 ﻿namespace twot
 {
-    partial class twot
+    partial class twos
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "twot";
             this.Text = "2";
+            this.Load += new System.EventHandler(this.twot_Load);
             this.ResumeLayout(false);
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace onet
+namespace connectbd
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace onet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ones());
+            Application.Run(new bdc());
         }
     }
 }

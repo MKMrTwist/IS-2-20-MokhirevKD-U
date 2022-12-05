@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace onet
 {
-    public partial class onet : Form
+    public partial class ones : Form
     {
        abstract class compl<T>
         {
@@ -129,7 +129,7 @@ namespace onet
         }
         HDD<int> hdd;
         GPU<int> gpu;
-        public onet()
+        public ones()
         {
             InitializeComponent();
         }

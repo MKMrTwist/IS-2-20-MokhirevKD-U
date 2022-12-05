@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +12,7 @@ using System.Windows.Forms;
 
 namespace twot
 {
-    public partial class twot : Form
+    public partial class twos : Form
     {
         public class ConnectDB
         {
@@ -29,14 +30,32 @@ namespace twot
         }
         ConnectDB connect = new ConnectDB("server=chuc.caseum.ru;port=33333;user=uchebka;database=uchebka;password=uchebka;");
         MySqlConnection my;
-        public twot()
+        public twos()
         {
             InitializeComponent();
+        }
+        private void twot_Load(object sender, EventArgs e)
+        {
+            my = new MySqlConnection(connect.ReturnConn());
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                my.Open();
+                MessageBox.Show("Подключено");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Проблемы с подключением, причина ошибки:" + ex.Message);
+            }
+            finally
+            {
+                my.Close();
+            }
 
         }
+    
     }
 }

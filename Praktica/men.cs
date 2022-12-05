@@ -7,6 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using onet;
+using twot;
+using threet;
+using fourt;
+using fivet;
+
 
 namespace Praktica
 {
@@ -24,13 +30,14 @@ namespace Praktica
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form = new onet();
+            Form form = new ones();
             form.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Form form = new twos();
+            form.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

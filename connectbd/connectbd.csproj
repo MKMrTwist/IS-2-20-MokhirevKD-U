@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A2A1596-3F88-4BD8-BA72-4CA79F1556E7}</ProjectGuid>
+    <ProjectGuid>{25C3EF5D-55CA-4A13-8D6D-8207ED0DC906}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>threet</RootNamespace>
-    <AssemblyName>threet</AssemblyName>
+    <RootNamespace>connectbd</RootNamespace>
+    <AssemblyName>connectbd</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="thrs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="thrs.Designer.cs">
-      <DependentUpon>thrs.cs</DependentUpon>
+    <Compile Include="bdc.cs" />
+    <Compile Include="bdc.Designer.cs">
+      <DependentUpon>bdc.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bdc.resx">
+      <DependentUpon>bdc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,9 +64,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="thrs.resx">
-      <DependentUpon>thrs.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
